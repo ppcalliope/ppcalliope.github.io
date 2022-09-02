@@ -1,2 +1,0 @@
-(this["webpackJsonpcalliope-lite-backbone"]=this["webpackJsonpcalliope-lite-backbone"]||[]).push([[16],{47:function(e,a,n){"use strict";n.r(a);var t=n(0),c=n.n(t),i=n(121),l=n.n(i);a.default=Object(t.memo)((function(e){var a=e.children,n=e.params;return c.a.createElement(l.a,n,a)}))}}]);
-//# sourceMappingURL=16.3fc2c262.chunk.js.map

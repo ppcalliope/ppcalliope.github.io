@@ -14,7 +14,7 @@ export default class HeadBarView extends Component {
             <div className="headerBarWrapper" >
                 <div className="headerBarLeft">
                     <div onClick={this.back}></div>
-                    <span>Calliope</span>
+                    <span>国家乒乓球队大数据平台</span>
                 </div>
             </div >
         )

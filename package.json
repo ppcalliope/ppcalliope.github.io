@@ -1,5 +1,5 @@
 {
-  "name": "calliope-lite-backbone",
+  "name": "calliope-pingpong",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "babel-plugin-import": "^1.13.0",
     "calliope-chart": "1.0.4",
     "customize-cra": "0.9.1",
+    "d3": "^5.16.0",
     "js-cookie": "^2.2.1",
     "less": "3.12.2",
     "less-loader": "5.0.0",
