@@ -1,0 +1,155 @@
+#mobile-view{
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+#mobile-swiper{
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "sans-serif","PingFang SC","Hiragino Sans GB","Arial","Microsoft YaHei";
+}
+
+.swiper{
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+}
+
+.mobile-slide-item{
+  height:100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  background-image: url('./assets/bg.png');
+  background-size: 100%;
+}
+
+.mobile-page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile-title{
+  width:175px;
+  height: 20px;
+  background-color: #F2EEE9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  font-family: PingFangSC-Medium;
+  font-size: 10px;
+  color: #483D28;
+  font-weight: 500;
+  z-index: 999;
+}
+
+.mobile-subtitle{
+  width: 275px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 14px;
+  background-image: url('./assets/banner.png');
+  background-size: 100% 100%;
+  z-index: 999;
+}
+
+.mobile-header {
+  position: absolute;
+  top:28px;
+  z-index: 0;
+  width: 215px;
+  height: 65px;
+  border: 1.5px dashed rgba(221,215,206,1);
+  border-radius: 5px;
+}
+
+@keyframes arrow
+{
+  from {top:93%;}
+  to {top:90%;}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+  from {top:93%;}
+  to {top:90%;}
+}
+
+.mobile-arrow{
+  height:12px;
+  width:21px;
+  background-image: url(./assets/arrow.png); 
+  clear: both;
+  text-align: center;
+  background-size: 100%;
+  position: absolute;
+  margin-left: -10px;
+  top: 93%;
+  left: 50%;
+  animation: 2.2s arrow ease-in-out infinite;
+  -webkit-animation: 2.2s arrow ease-in-out infinite;
+  z-index: 9999;
+}
+
+
+.swiper-pagination-bullet-active{
+  --swiper-theme-color: #F6C02A;
+}
+
+.mobile-footer {
+  position: absolute;
+  bottom: 9px;
+  width: 100% !important;
+  box-sizing:border-box;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #9C9197;
+}
+
+.mobile-footer-text {
+  margin-right: 18px;
+  font-family: PingFangSC-Light;
+  font-size: 10px;
+  color: #9C9197;
+  font-weight: 200;
+}
+
+.mobile-footer-line {
+  height: 0.3px;
+  width: 80px;
+  background-color: #9F9198;
+}
+
+.mobile-footer-dot {
+  height: 4px;
+  width: 4px;
+  background-color: #9F9198;
+  border-radius: 50%;
+}
+
+.mobile-logo {
+  width:25px;
+  height:25px;
+  background-image: url(./assets/calliope.png); 
+  background-size: 100%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 16px;
+  background-repeat: no-repeat;
+}

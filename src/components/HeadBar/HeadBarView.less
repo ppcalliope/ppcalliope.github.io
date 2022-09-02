@@ -1,0 +1,52 @@
+@import "../../common.less";
+
+.headerBarWrapper {
+    width         : 100%;
+    height        : 50px;
+    display       : flex;
+    flex-direction: row;
+    align-items   : center;
+
+    .headerBarLeft {
+        height        : 50px;
+        display       : flex;
+        flex-direction: row;
+        position      : relative;
+        align-items   : center;
+
+        span {
+            font-family: @NotoSansHans-Medium;
+            font-size  : 22px;
+            font-weight: 500;
+            line-height: 22px;
+            color      : #000000;
+            text-align : left;
+            margin-left: 14px;
+            white-space: nowrap;
+        }
+
+        div {
+            height            : 45px;
+            width             : 45px;
+            background        : url('@{myAliCould}/headbar/logo1.png') left no-repeat;
+            background-size   : contain;
+        }
+
+        div:hover {
+            cursor: pointer;
+        }
+    }
+
+}
+
+@media screen and (min-width:524px) {
+    .ant-layout-header {
+        padding: 0px 30px !important;
+    }
+}
+
+@media screen and (max-width:524px) {
+    .ant-layout-header {
+        padding: 0px 10px !important;
+    }
+}

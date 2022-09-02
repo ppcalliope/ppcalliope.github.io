@@ -1,0 +1,87 @@
+.poster-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/bg.jpg');
+  // background-color: antiquewhite;
+  background-size: 100%;
+  overflow: hidden;
+
+  &-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22%;
+    height: 26%;
+    background-image: url('./assets/top.png');
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
+
+  &-mid {
+    position: absolute;
+    top: 56%;
+    left: 0;
+    width: 40px;
+    height: 94px;
+    background-image: url('./assets/mid.png');
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
+
+  &-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 64px;
+    height: 63px;
+    background-image: url('./assets/bottom.png');
+    background-size: 100%;
+    background-repeat:no-repeat;
+  }
+}
+
+.poster-maintitle {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 95%;
+  height: 40%;
+  background-image: url('./assets/title.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+}
+
+.poster-title {
+  position: absolute;
+  top: 50%;
+  padding: 22px 0;
+  width: 76%;
+  height: auto;
+  background-image: url('./assets/title-border.png');
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+
+  .match-date {
+    font-family: MiSans-Heavy;
+    font-size: 20px;
+    color: #103382 ;
+    letter-spacing: 5px;
+    font-weight: 900;
+  }
+  .match-name {
+    font-family: MiSans-Heavy;
+    font-size: 16px;
+    color: #103382;
+    font-weight: 900;
+  }
+}
+
+.poster-subtitle {
+  position: absolute;
+  bottom: 15%;
+  width: 280px;
+  height: 68px;
+  background-image: url('./assets/divider.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+}

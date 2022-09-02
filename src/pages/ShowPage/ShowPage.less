@@ -1,0 +1,157 @@
+@import '../../common.less';
+
+
+.header {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px 0px rgba(130,130,130,0.5);
+}
+
+.middleContent {
+    // width           : 826px;
+    // height          : 100%;
+    // margin-right    : 20px;
+    // padding-bottom  : 100px;
+    // overflow-x      : scroll;
+    // background-color: white;
+    display         : flex;
+    flex-direction  : row-reverse;
+    justify-content : center;
+    margin-bottom   : 40px;
+    margin-top      : 20px;
+
+    .pagePreview {
+        position        : relative;
+        width           : 420px;
+        height          : 680px;
+        background      : #FFFFFF;
+        box-shadow      : 0px 2px 10px 0px rgba(190,190,190,0.5);
+        border-radius   : 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bannerContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    
+        .banner {
+            width: fit-content;
+
+            .platformTitle {
+                font-family       : @NotoSansHans-Medium;
+                font-size         : 20px;
+                font-weight       : 500;
+                height            : 28px;
+                line-height       : 28px;
+                color             : #1A0000;
+            }
+        
+            .createdInfo {
+                display         : flex;
+                flex-direction  : row;
+                margin-top      : 10px;
+                font-size       : 14px;
+                font-weight     : 200;
+                line-height     : 19px;
+        
+                .createdOn {
+                    font-family  : @NotoSansHans-Regular;
+                    color        : #6C7579;
+                }
+                .createdTime {
+                    font-family: @NotoSansHans-Regular;
+                    color      : #1F0021;
+                }
+            }
+            .divider {
+                width:      100%;
+                height:     3px;
+                margin-top: 10px;
+                transform:  scaleY(-1);
+                background: #FCBE31;
+            }
+        }
+
+        .shareButton {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 45px;
+            background:  #FFFFFF;
+            box-shadow:    0px 2px 10px 0px rgba(190,190,190,0.5);
+            border-radius: 2px;
+            margin-top: 35px;
+
+            .shareIcon {
+                width: 16px;
+                height: 16px;
+                background-image: url('../../assets/share.png');
+                background-size: 100%;
+            }
+            .shareText {
+                font-family: @NotoSansHans-Medium;
+                font-size: 16px;
+                color: #1A0000;
+                font-weight: 500;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:524px) {
+    .middleContent {
+        display: flex;
+        flex-direction  : column;
+        justify-content : center;
+        margin-bottom   : 16px;
+        margin-top      : 18px;
+
+        .pagePreview {
+            width           : 100%;
+            height          : auto;
+            zoom            : 0.92;
+            box-shadow      : none;
+        }
+
+        .bannerContainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 92%;
+            margin-left: 15px;
+            margin-bottom: 20px;
+
+            .banner {
+                .platformTitle {
+                    font-size         : 12px;
+                    height            : 16px;
+                    line-height       : 16px;
+                }
+                .createdInfo {
+                    margin-top   : 7px;
+                    font-size    : 10px;
+                    line-height  : 13px;
+                    height       : 13px;
+                }
+                .divider {
+                    height:     2px;
+                    margin-top: 7px;
+                }
+            }
+
+            .shareButton {
+                margin-top: 0;
+                width: 50%
+            }
+        }
+    }
+}
+
+
+
