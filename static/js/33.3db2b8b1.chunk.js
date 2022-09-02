@@ -1,2 +1,0 @@
-(this["webpackJsonpcalliope-pingpong"]=this["webpackJsonpcalliope-pingpong"]||[]).push([[33],{89:function(p,i,o){p.exports=o.p+"static/media/poster.541a02b9.jpg"}}]);
-//# sourceMappingURL=33.3db2b8b1.chunk.js.map
