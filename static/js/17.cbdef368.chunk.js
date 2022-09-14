@@ -1,2 +1,0 @@
-(this["webpackJsonpcalliope-pingpong"]=this["webpackJsonpcalliope-pingpong"]||[]).push([[17],{48:function(n,e,a){"use strict";a.r(e);var p=a(0),t=a.n(p),c=a(144),i=a.n(c);e.default=Object(p.memo)((function(n){var e=n.children,a=n.params;return t.a.createElement(i.a,a,e)}))}}]);
-//# sourceMappingURL=17.cbdef368.chunk.js.map
